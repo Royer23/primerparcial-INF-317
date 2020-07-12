@@ -11,12 +11,12 @@ jacobi.c
 gcc jacobi.c -fopenmp
 gcc jacobi.c -o jacobi -fopenmp
 */
-*/
+
 
 #include<stdio.h>
 #include<stdbool.h>
 #include <omp.h>
-int main(){
+void main(){
   float matriz[3][3+1];
   float valores[3];
   float aux[3];
